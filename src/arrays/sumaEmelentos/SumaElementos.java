@@ -7,6 +7,7 @@ public class SumaElementos {
         for (int i = 0; i < numeros.length; i++) {
             suma += numeros[i];
         }
+        // "La suma es: XX".
         System.out.println(suma);
     }
 }

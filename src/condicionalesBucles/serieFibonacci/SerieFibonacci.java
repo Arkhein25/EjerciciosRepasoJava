@@ -1,6 +1,7 @@
 package condicionalesBucles.serieFibonacci;
 
 public class SerieFibonacci {
+    // No uses IA, aprovecha estos ejercicios para aprender por ti mismo.
     public static void main(String[] args) {
         int a = 0;
         int b = 1;
