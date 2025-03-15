@@ -12,8 +12,8 @@ public class NumeroPrimo {
         int numero = scanner.nextInt();
 
         //realizando operaciones de validación
-        boolean esPrimo = true;
-        if (numero > 1) {
+        boolean esPrimo = true; // ✅✅
+        if (numero > 1) { // ❓❓❓❓
             esPrimo = false;
         } else {
             for (int i = 2; i < numero; i++) {

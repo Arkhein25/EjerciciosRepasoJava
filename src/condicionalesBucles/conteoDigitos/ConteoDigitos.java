@@ -12,9 +12,9 @@ public class ConteoDigitos {
         int numero = scanner.nextInt();
         System.out.println("");
 
-        //convertir el numero a valor absoluto
-        int absoluto = Math.abs(numero);
-        int cont = 0;
+        //convertir el numero a valor absoluto ❓ ¿Por qué lo pasas a número absoluto?
+        int absoluto = Math.abs(numero); // int numeroAbsoluto = ...
+        int cont = 0; // int numDigitos = 0
         while (absoluto > 0) {
             absoluto /= 10;
             cont++;

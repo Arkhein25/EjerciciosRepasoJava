@@ -13,6 +13,7 @@ public class NumeroFactorial {
         for (int i = 1; i <= numero; i++) {
             factorial *= i;
         }
+        // "El factorial de X es Y"
         System.out.println(numero + "!= " + factorial);
         scanner.close();
     }

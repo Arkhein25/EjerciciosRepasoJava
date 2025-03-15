@@ -9,9 +9,9 @@ public class TablaMultiplicar {
 
         //pedir numero al usuario
         System.out.print("Ingresa el número para mostrar su tabla de multiplicar: ");
-        int numero = scanner.nextInt();
+        int numero = scanner.nextInt(); // int multiplicando =
 
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 10; i++) { // int multiplicador = 1;...
             int mult = numero * i;
             System.out.println(numero + " x " + i + " = " + mult);
         }

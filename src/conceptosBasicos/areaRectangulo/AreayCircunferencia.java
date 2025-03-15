@@ -2,6 +2,7 @@ package conceptosBasicos.areaRectangulo;
 
 import java.util.Scanner;
 
+// ✅✅
 public class AreayCircunferencia {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -11,6 +12,7 @@ public class AreayCircunferencia {
         double radio = scanner.nextDouble();
         scanner.nextLine();
 
+        // Acostúmbrate a usar una clase para estas operaciones matemáticas.
         //realizar calculos
         //Area= 𝜋*r^2
         //Circunferencia= 2*𝜋*r
