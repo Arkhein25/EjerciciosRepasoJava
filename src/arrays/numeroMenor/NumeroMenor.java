@@ -6,7 +6,7 @@ public class NumeroMenor {
         int[] numero = {1, 25, 26, 27, 28, 29, 30};
         int min = numero[0];
         for (int i = 0; i < numero.length; i++) {
-            if (min < i) {
+            if (min > numero[i]) {
                 min = numero[i];
             }
         }

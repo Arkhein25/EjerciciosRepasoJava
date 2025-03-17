@@ -13,13 +13,13 @@ public class ConteoDigitos {
         System.out.println("");
 
         //convertir el numero a valor absoluto ❓ ¿Por qué lo pasas a número absoluto?
-        int absoluto = Math.abs(numero); // int numeroAbsoluto = ...
-        int cont = 0; // int numDigitos = 0
-        while (absoluto > 0) {
-            absoluto /= 10;
-            cont++;
+        int numeroAbsoluto = Math.abs(numero); // int numeroAbsoluto = ...
+        int numDigitos = 0; // int numDigitos = 0
+        while (numeroAbsoluto > 0) {
+            numeroAbsoluto /= 10;
+            numDigitos++;
         }
-        System.out.println("el numero tiene " + cont + " dígitos");
+        System.out.println("el numero tiene " + numDigitos + " dígitos");
         scanner.close();
     }
 }

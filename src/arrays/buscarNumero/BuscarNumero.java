@@ -8,23 +8,21 @@ public class BuscarNumero {
         int[] numeros = {10, 20, 30, 40, 50, 60, 20, 80, 20};
 
         System.out.print("Ingresa el numero a buscar en el arreglo: ");
-        // int numeroABuscar = scanner...
-        int busca = scanner.nextInt();
-        // Las siguientes seis líneas mejor en una función
+
+        int numeroABuscar = scanner.nextInt();
+
+        int cont = buscadorDeNumeros(numeros, numeroABuscar);
+
+        System.out.println("El número ingresado aparece " + cont + " veces en el arreglo");
+    }
+
+    public static int buscadorDeNumeros(int[] numeros, int numeroABuscar) {
         int cont = 0;
-        for (int i = 0; i < numeros.length; i++) {
-            if (busca == numeros[i]) {
+        for (int numero : numeros) {
+            if (numero == numeroABuscar) {
                 cont++;
             }
         }
-        /* Para este tipo de búsquedas, mejor usa
-            for (int numero : numeros) {
-                if (busca == numero) {
-                    cont++;
-                }
-            }
-        */
-
-        System.out.println("El número ingresado aparece " + cont + " veces en el arreglo");
+        return cont;
     }
 }

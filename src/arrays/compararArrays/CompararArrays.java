@@ -16,7 +16,7 @@ public class CompararArrays {
                 System.out.println("Los arreglos son iguales");
             }else {
                 // Para denotar esta situación, es preferible: System.err.println("...");
-                System.out.println("Los arreglos no son iguales");
+                System.err.println("Los arreglos no son iguales");
             }
         } else {
             System.out.println("Los arreglos no tienen la misma longitud.");

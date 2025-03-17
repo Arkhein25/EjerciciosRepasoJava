@@ -7,11 +7,10 @@ public class Promedio {
         double promedio = 0;
         for (int i = 0; i < numeros.length; i++) {
             suma += numeros[i];
-
-            // ¿Por qué calculas el promedio en cada iteración?
-            promedio = (double) suma / numeros.length;
         }
+        // ¿Por qué calculas el promedio en cada iteración?
+        promedio = (double) suma / numeros.length;
         // El promedio es: XX.XX
-        System.out.println(promedio);
+        System.out.println("El promedio es : " + promedio);
     }
 }

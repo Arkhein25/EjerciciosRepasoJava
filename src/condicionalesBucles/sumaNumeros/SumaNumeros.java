@@ -9,7 +9,6 @@ public class SumaNumeros {
         // Más que 'i', yo pondría 'numero'
         for (int i = 1; i <= 100; i++) {
             suma += +i;
-            suma++;
         }
         System.out.println("La suma de los primeros 100 numeros naturales es: " + suma);
     }

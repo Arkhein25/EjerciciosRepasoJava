@@ -8,6 +8,6 @@ public class SumaElementos {
             suma += numeros[i];
         }
         // "La suma es: XX".
-        System.out.println(suma);
+        System.out.println("La suma es: " + suma);
     }
 }
